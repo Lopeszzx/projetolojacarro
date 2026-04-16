@@ -1,44 +1,87 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Venda seu Carro</title>
+    <title>Venda seu carro</title>
 </head>
+
 <body>
     <div class="container">
-      <header class="cabecalho">
-        <h3>Cadastre seu veiculo para vender mais rapido</h3>
-      </header>
-      <div class="form-container">
-        <div class="form-header">
-            <p>Formulario</p>
+        <header class="cabecalho">
+            <h3>Cadastre seu veiculo para vender mais rápido</ h3>
+        </header>
+        <div class="form-container">
+            <div class="form-header">
+                <p>Formulario</p>
+            </div>
+            <div class="form-body">
+                <h1 class="form-titulo">Venda fácil o seu carro</h1>
+                <p>Descreva as caracteristícas do seu carro e marque os opicionais que ele possui</p>
+                <form>
+
+
+                    <div class="caixaInputs">
+                        <label for="title">Título do anúncio <span class="campo-obrigatorio">*</span></label>
+                        <input type="text" name="title" id="title" class="block" placeholder="Digite um título"
+                            minlength="1" maxlength="30" required>
+                    </div>
+
+
+                    <div class="caixaInputs">
+                        <label for="preco"> preço <span class="campo-obrigatorio">*</span></label>
+                        <input type="number" name="preco" id="preco" class="block" placeholder="Digite um preço"
+                            required>
+                    </div>
+
+
+                    <div class="caixaIputs">
+                        <label for="descricao">Descrição</label>
+                        <textarea name="descricao" id="descricao" class="block"
+                            placeholder="Faça a descrição do seu veiculo"></textarea>
+                    </div>
+
+
+                    <div class="caixaInputs">
+                        <label for="marca"> marca <span class="campo-obrigatorio">*</span></label>
+                        <input type="text" name="marca" id="marca" class="block" placeholder="Digite uma marca"
+                            required>
+
+                    </div>
+
+
+                    <div class="caixaInputs">
+                        <label for="modelo"> modelo <span class="campo-obrigatorio">*</span></label>
+                        <input type="text" name="modelo" id="modelo" class="block" placeholder="Digite um modelo"
+                            required>
+                    </div>
+
+
+                    <div class="caixaInputs">
+                        <label for="quilometragem"> quilometragem <span class="campo-obrigatorio">*</span></label>
+                        <input type="number" name="quilometragem" id="quilometragem" class="block"
+                            placeholder="Digite uma quilometragem" required>
+                    </div>
+
+
+                    <div class="caixaInputs">
+                        <label for="data-compra"> data-compra <span class="campo-obrigatorio">*</span></label>
+                        <input type="number" name="data-compra" id="data-compra" class="block"
+                            placeholder="Digite uma data-compra" required>
+                    </div>
+
+                    <p>Tipo de Câmbio: <span class="campo-obrigatorio">*</span></p>
+                    <input type="radio" name="marcha" id="manual">
+                    < label for="manual">Manual</label>
+                    div>
+
+                    
+                </form>
+            </div>
         </div>
-        <div class="form-boby">
-            <h1 class="form-titulo">Venda fácil seu Carro</h1>
-            <p>Descreva as caracteristicas do seu carro e marque os opicionais que ele possui</p>
-            <form>
-
-
-                <div class="caixainputs">
-                    <label for="title">titulo do anúncio<sapan class="canpo-obrigatorio">*</sapan></label>
-                    <input type="text" name="title" id="title" class="block" placeholder="digite um titulo" minlength="1" maxlength="30" required>
-                </div>
-
-
-                 <div class="caixainputs">
-                    <label for="preco"><sapan class="canpo-obrigatorio">*</sapan></label>
-                    <input type="number" name="preco" id="preço" class="block" placeholder="digite um preço" required>
-                </div>
-
-                <div class="caixainputs">
-                    <label for="descricao">deacroção</label>
-                    <textarea name="descricao" id="descricao" class="block" placeholder="faça a descrição do seu veiculo aqui"></textarea>
-                </div>
-            </form>
-        </div>
-      </div>
     </div>
- 
+
 </body>
+
 </html>
