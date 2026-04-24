@@ -29,5 +29,6 @@ function salvarCarros(event) {
 }
 
 function adicionarNatela(carro) {
-    
+    let lista = document.getElementById('listarcarros');
+    let card = document.createElement
 }
