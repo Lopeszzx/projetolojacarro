@@ -22,4 +22,8 @@ function salvarCarros(event) {
     let carros = JSON.parse(localStorage.getItem("carros")) || [];
     carros.push(carro);
     localStorage.setItem("carros", JSON.stringify(carros));
+
+    adicionarNatela(carro);
+
+    document.querySelector("form").reset();
 }
