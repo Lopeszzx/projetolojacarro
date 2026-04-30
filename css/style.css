@@ -130,7 +130,7 @@ margin-bottom: 15px;
     hr {
         margin-top: 20px;
         height: 3px;
-        background: to right, transparent, #00f7ff, transparent;
+        background: linear-gradient(to right, transparent, #00f7ff, transparent);
         margin: 20px 0;
         border: none;
     }
